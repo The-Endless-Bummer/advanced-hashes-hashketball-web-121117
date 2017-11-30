@@ -1,5 +1,3 @@
-require "pry"
-
 def game_hash
   {
     home: {
@@ -127,8 +125,6 @@ def num_points_scored(name)
     end
   end
 end
-
-num_points_scored
 
 def shoe_size
 
