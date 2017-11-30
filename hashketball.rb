@@ -157,6 +157,7 @@ def player_numbers(team)
     if team_data[:team_name] == team
       team_data[:players].each do |player, info|
         numbers << info[:number]
+      end
     end
   end
   numbers
